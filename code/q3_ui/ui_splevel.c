@@ -696,6 +696,7 @@ void UI_SPLevelMenu_Cache( void ) {
 	trap_R_RegisterShaderNoMip( ART_MAP_COMPLETE3 );
 	trap_R_RegisterShaderNoMip( ART_MAP_COMPLETE4 );
 	trap_R_RegisterShaderNoMip( ART_MAP_COMPLETE5 );
+	trap_R_RegisterShaderNoMip( ART_MAP_COMPLETE6 );
 	trap_R_RegisterShaderNoMip( ART_BACK0 );
 	trap_R_RegisterShaderNoMip( ART_BACK1 );
 	trap_R_RegisterShaderNoMip( ART_FIGHT0 );
@@ -717,6 +718,7 @@ void UI_SPLevelMenu_Cache( void ) {
 	levelMenuInfo.levelCompletePic[2] = trap_R_RegisterShaderNoMip( ART_MAP_COMPLETE3 );
 	levelMenuInfo.levelCompletePic[3] = trap_R_RegisterShaderNoMip( ART_MAP_COMPLETE4 );
 	levelMenuInfo.levelCompletePic[4] = trap_R_RegisterShaderNoMip( ART_MAP_COMPLETE5 );
+	levelMenuInfo.levelCompletePic[5] = trap_R_RegisterShaderNoMip( ART_MAP_COMPLETE6 );
 }
 
 
